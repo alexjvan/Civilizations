@@ -11,6 +11,7 @@ public class Civilizations extends JavaPlugin {
 	private API api;
 	
 	ConfigFile gridFile;
+	ConfigFile townsFile;
 	
 	@Override
 	public void onEnable() {
@@ -24,6 +25,7 @@ public class Civilizations extends JavaPlugin {
 		api.getPlug().registerPlugin(this, "Basics");
 		
 		gridFile = new ConfigFile(api, "gridData.yml");
+		townsFile = new ConfigFile(api, "townsData.yml");
 	}
 	
 	@Override
