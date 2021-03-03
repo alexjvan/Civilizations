@@ -4,9 +4,10 @@ import java.util.List;
 
 import org.bukkit.Location;
 
+import com.brokencube.civilizations.api.Ownership;
 import com.brokencube.civilizations.world.CivilizationsWorldChunk;
 
-public class Civilization {
+public class Civilization extends Ownership {
 
 	public String name;
 	public String motd;

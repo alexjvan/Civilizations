@@ -15,7 +15,7 @@ public enum PlotType {
 	Embassy_Claimed,
 	Embassy_ForSale,
 	
-	Outpost,
-	Outpost_Spawn,
-	Outpost_SpawnPart
+	Territory,
+	Territory_Spawn,
+	Territory_SpawnPart
 }

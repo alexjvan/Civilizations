@@ -4,6 +4,7 @@ public enum LandType {
 	Wilderness,
 	
 	Spawn,
+	Protected,
 	
 	Civilization
 }
